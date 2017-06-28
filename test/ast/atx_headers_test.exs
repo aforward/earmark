@@ -1,7 +1,6 @@
 defmodule Acceptance.AtxHeadersTest do
   use ExUnit.Case
   
-  import Support.Helpers, only: [as_ast: 1, as_ast: 2]
   # describe "ATX headers" do
 
     test "from one to six" do
